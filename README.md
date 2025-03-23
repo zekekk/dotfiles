@@ -1,4 +1,4 @@
-# My dotfiles
+# My dotfiles (I don't add everything yet)
 
 ## Preview
 ![Preview](wallpapers/preview.png)
