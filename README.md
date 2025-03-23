@@ -1,8 +1,10 @@
 # My dotfiles
 
-![Preview](.config/wallpapers/preview.png)
+## Preview
+![Preview](wallpapers/preview.png)
 
-![Wallpaper (drawed by: komugiko_2000)](.config/wallpapers/woman_waiting.jpg)
+## Wallpaper (drawed by: komugiko_2000)
+![Wallpaper (drawed by: komugiko_2000)](wallpapers/woman_waiting.jpg)
 
 ## Dependencies
 
