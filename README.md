@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # dotfiles
 [Hyprland] my dotfiles to hyprland (arch btw)
 =======
@@ -43,6 +42,3 @@ use GNU stow to create symlinks
 $ stow .
 ```
 
-
-
->>>>>>> master
