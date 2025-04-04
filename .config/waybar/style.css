@@ -1,0 +1,153 @@
+* {
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 0px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+@keyframes blink_red {
+    to {
+        background-color: rgb(242, 143, 173);
+        color: rgb(26, 24, 38);
+    }
+}
+
+.warning, .critical, .urgent {
+    animation-name: blink_red;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+window#waybar {
+    background-color: transparent;
+}
+
+window#waybar.hidden {
+    opacity: 0.5;
+}
+
+window > box {
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: rgb(30, 30, 46); /* Background remains unchanged */
+}
+
+#workspaces button {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#workspaces button.focused {
+    background-color: rgb(23, 147, 207); /* Converted to RGB */
+    color: rgb(26, 24, 38);
+}
+
+#workspaces button.active {
+    background-color: rgb(23, 147, 207); /* Converted to RGB */
+    color: rgb(26, 24, 38);
+}
+
+#workspaces button.urgent {
+    color: rgb(26, 24, 38);
+}
+
+#workspaces button:hover {
+    background-color: rgb(23, 147, 207); /* Converted to RGB */
+    color: rgb(26, 24, 38);
+}
+
+tooltip {
+    background: rgb(48, 45, 65); /* Tooltip background remains unchanged */
+}
+
+tooltip label {
+    color: rgb(23, 147, 207); /* Converted to RGB */
+}
+
+#custom-launcher {
+    padding-left: 20px;
+    padding-right: 15px;
+    font-size: 18px;
+    color: rgb(23, 147, 207); /* Converted to RGB */
+}
+
+#mode, #clock, #memory, #cpu, #idle_inhibitor, #temperature, #backlight, #pulseaudio, #network, #battery {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#mode {
+    margin-left: 10px;
+    background-color: rgb(23, 147, 207); /* Converted to RGB */
+    color: rgb(26, 24, 38);
+}
+
+#memory {
+    padding-left: 25px;
+    color: rgb(23, 147, 207); /* Converted to RGB */
+}
+
+#cpu {
+    color: rgb(23, 147, 207); /* Converted to RGB */
+}
+
+#clock {
+    color: rgb(23, 147, 207); /* Converted to RGB */
+}
+
+#idle_inhibitor {
+    color: rgb(23, 147, 207); /* Converted to RGB */
+}
+
+#temperature {
+    color: rgb(23, 147, 207); /* Converted to RGB */
+}
+
+#backlight {
+    color: rgb(23, 147, 207); /* Converted to RGB */
+}
+
+#pulseaudio {
+    color: rgb(23, 147, 207); /* Converted to RGB */
+}
+
+#network {
+    color: rgb(23, 147, 207); /* Converted to RGB */
+}
+
+#battery.charging, #battery.full, #battery.discharging {
+    color: rgb(23, 147, 207); /* Converted to RGB */
+}
+
+#battery.critical:not(.charging) {
+    color: rgb(242, 143, 173); /* Keep critical battery color unchanged */
+}
+
+#custom-playerctl {
+    padding: 0 10px;
+    margin: 0 4px;
+    background-color: rgb(23, 147, 207); /* Converted to RGB */
+    color: black;
+}
+
+#custom-playerctltest {
+    padding: 0 10px;
+    margin: 0 4px;
+    background-color: rgb(23, 147, 207); /* Converted to RGB */
+    color: black;
+}
+
+#custom-off {
+    color: rgb(23, 147, 207); /* Converted to RGB */
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
