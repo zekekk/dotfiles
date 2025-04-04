@@ -21,7 +21,7 @@ Ensure that these dependencies are installed:
 - kitty
 - swaync
 - nemo
-- gotop
+- gotop (using yay)
 
 **Obs.:** Some errors can happen because some file links might be different on your system.
 I don't recommend installing it using `stow` directly if you don't know what you're doing.
